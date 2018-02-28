@@ -1,0 +1,5 @@
+使用安卓6.0以上版本创建模拟器报错，模拟器启动不起来：
+audio: Failed to create voice `goldfish_audio_in'
+qemu-system-armel.exe: warning: opening audio input failed
+
+

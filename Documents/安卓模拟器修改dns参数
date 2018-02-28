@@ -1,0 +1,20 @@
+第一步：adb shell   （进入模拟器的linux系统）
+
+第二步：getprop  （getprop会列出系统当前的各项属性）
+
+第三步：得到模拟器的DNS地址
+
+在结果里可以看到：
+
+[net.dns1]: [10.0.2.3]
+[net.dns2]: [10.0.2.4]
+[net.dns3]: [10.0.2.5]
+[net.dns4]: [10.0.2.6]
+
+第四步：把dns改成我们自己的DNS
+
+setprop net.dns1 192.168.1.1  或者 setprop net.dns1 192.168.0.1
+如果以上两个DNS不好用，请直接使用ipconfig  /all（windows系统） 或者 ifconfig -a（linux/unix系统）命令确认。
+
+通过运行getprop命令就可以获取系统的配置，主要是查看两个配置，一个是net.dns1,另外一个是net.gprs.http-proxy 。
+如果这两个的配置都和你pc上网的设置是一样的，那就不需要设置了。如果不一样，就看下一条。

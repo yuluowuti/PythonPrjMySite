@@ -1,0 +1,32 @@
+可以使用模拟器或者真机
+进入adb命令
+例如：
+cmp=com.lianqian.jinniuguanjia/.moudles.splash.SplashActivity
+cmp=com.lq.kldshopping/.activity.SplashActivity
+
+
+/前是包名，后是Activity名
+
+给指定包打压力
+adb shell monkey -p com.lianqian.jinniuguanjia 1000
+
+adb shell monkey -p com.lianqian.jinniuguanjia --pct-touch 30 --pct-trackball 0 --pct-nav 0 --pct-majornav 20 --pct-appswitch 10 --pct-anyevent 10 -s 12867 -v --throttle 300 20000 > D:\monkeytest.txt
+
+
+1、Monkey如何模拟手动操作？
+答：–throttle参数
+
+2、Monkey如何控制事件流所占比？
+答：–pct-touch等pct参数
+
+3、如何重现Monkey中发现的错误？
+答：使用seed
+
+4、Monkey除了做伪随机事件外，能不能写脚本？
+答：能。
+
+5、如果能写脚本怎么做？
+答：两种方式，指定事件类型+事件百分比，或者使用 -f参数加脚本文件。
+
+6、Monkey测试一般测试多久？
+答：超过3个小时。

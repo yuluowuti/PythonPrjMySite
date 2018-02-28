@@ -1,0 +1,4 @@
+重启adb
+
+adb kill-server
+adb start-server
