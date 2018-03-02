@@ -1,0 +1,9 @@
+deviceInfo:
+  platformName: Android
+  platformVersion: 4.4.2
+  command_executor: http://localhost:4723/wd/hub
+  app:
+    - appPackage: com.lq.kldshopping
+      appActivity: com.lq.kldshopping.activity.SplashActivity
+    - appPackage: com.lianqian.jinniuguanjia
+      appActivity: com.lianqian.jinniuguanjia.activity.SplashActivity

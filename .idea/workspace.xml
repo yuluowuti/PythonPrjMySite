@@ -2,18 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="914a089e-d4e8-4eee-8977-be8f08980d73" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/Documents/linux中top命令" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Documents/yaml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Documents/常用url/study" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Documents/面try" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/testworkspace/shopTestApp/__init__.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/testworkspace/shopTestApp/appiumDemo.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/testworkspace/shopTestApp/caseConfig/__init__.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/testworkspace/shopTestApp/common/__init__.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/testworkspace/shopTestApp/common/adbDevices.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/testworkspace/shopTestApp/demoyaml.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/autoTestSite/autoTestSite/__init__.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/autoTestSite/autoTestSite/settings.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/autoTestSite/autoTestSite/urls.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/autoTestSite/autoTestSite/wsgi.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/autoTestSite/db.sqlite3" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/autoTestSite/manage.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/autoTestSite/run.bat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/testworkspace/jmeter/商城金融接口Test.jmx" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/testworkspace/shopTestApp/caseConfig/appconfig.yaml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/testworkspace/shopTestApp/caseConfig/test001.yaml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/Documents/monkey压测app" afterPath="$PROJECT_DIR$/Documents/monkey压测app" />
+      <change beforePath="$PROJECT_DIR$/Documents/常用url/study" afterPath="$PROJECT_DIR$/Documents/常用url/study" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -41,11 +41,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="demoyaml.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="demoyaml.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/testworkspace/shopTestApp/demoyaml.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
-              <caret line="7" column="29" lean-forward="false" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
+            <state relative-caret-position="176">
+              <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="study" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Documents/常用url/study">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="88">
+              <caret line="4" column="33" lean-forward="false" selection-start-line="4" selection-start-column="33" selection-end-line="4" selection-end-column="33" />
               <folding />
             </state>
           </provider>
@@ -83,7 +93,6 @@
         <option value="$PROJECT_DIR$/Documents/linux中top命令" />
         <option value="$PROJECT_DIR$/testworkspace/shopTestApp/appiumDeam.py" />
         <option value="$PROJECT_DIR$/testworkspace/shopTestApp/adb.py" />
-        <option value="$PROJECT_DIR$/Documents/常用url/study" />
         <option value="$PROJECT_DIR$/Documents/monkey压测app" />
         <option value="$PROJECT_DIR$/Documents/面try" />
         <option value="$PROJECT_DIR$/Documents/yaml" />
@@ -92,6 +101,7 @@
         <option value="$PROJECT_DIR$/testworkspace/shopTestApp/common/__init__.py" />
         <option value="$PROJECT_DIR$/testworkspace/shopTestApp/appiumDemo.py" />
         <option value="$PROJECT_DIR$/testworkspace/shopTestApp/common/adbDevices.py" />
+        <option value="$PROJECT_DIR$/Documents/常用url/study" />
       </list>
     </option>
   </component>
@@ -101,7 +111,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="1">
     <option name="x" value="287" />
     <option name="y" value="148" />
     <option name="width" value="1228" />
@@ -133,13 +143,18 @@
             <path>
               <item name="PythonPrjMySite" type="b2602c69:ProjectViewProjectNode" />
               <item name="PythonPrjMySite" type="462c0819:PsiDirectoryNode" />
-              <item name="testworkspace" type="462c0819:PsiDirectoryNode" />
+              <item name="Documents" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PythonPrjMySite" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PythonPrjMySite" type="462c0819:PsiDirectoryNode" />
+              <item name="Documents" type="462c0819:PsiDirectoryNode" />
+              <item name="常用url" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="PythonPrjMySite" type="b2602c69:ProjectViewProjectNode" />
               <item name="PythonPrjMySite" type="462c0819:PsiDirectoryNode" />
               <item name="testworkspace" type="462c0819:PsiDirectoryNode" />
-              <item name="shopTestApp" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -271,7 +286,14 @@
       <option name="project" value="LOCAL" />
       <updated>1519804886934</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="add">
+      <created>1519983538956</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1519983538956</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TodoView" selected-index="3">
@@ -284,15 +306,15 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="287" y="148" width="1228" height="863" extended-state="0" />
+    <frame x="287" y="148" width="1228" height="863" extended-state="1" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26533332" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29685363" sideWeight="0.50342464" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33663365" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32838285" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29685363" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29685363" sideWeight="0.49657536" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32838285" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2405822" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2405822" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -397,6 +419,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="415">
           <caret line="62" column="54" lean-forward="false" selection-start-line="62" selection-start-column="54" selection-end-line="62" selection-end-column="54" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -412,14 +435,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1012">
           <caret line="52" column="36" lean-forward="true" selection-start-line="52" selection-start-column="36" selection-end-line="52" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Documents/常用url/study">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="58" lean-forward="false" selection-start-line="2" selection-start-column="58" selection-end-line="2" selection-end-column="58" />
           <folding />
         </state>
       </provider>
@@ -556,8 +571,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/testworkspace/shopTestApp/demoyaml.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" column="29" lean-forward="false" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
+        <state relative-caret-position="176">
+          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Documents/常用url/study">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="33" lean-forward="false" selection-start-line="4" selection-start-column="33" selection-end-line="4" selection-end-column="33" />
           <folding />
         </state>
       </provider>
