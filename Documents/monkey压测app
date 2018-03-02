@@ -20,7 +20,7 @@ adb shell monkey -p com.lianqian.jinniuguanjia --pct-touch 30 --pct-trackball 0 
 答：–pct-touch等pct参数
 
 3、如何重现Monkey中发现的错误？
-答：使用seed
+答：使用seed  (-s)
 
 4、Monkey除了做伪随机事件外，能不能写脚本？
 答：能。
@@ -30,3 +30,53 @@ adb shell monkey -p com.lianqian.jinniuguanjia --pct-touch 30 --pct-trackball 0 
 
 6、Monkey测试一般测试多久？
 答：超过3个小时。
+
+
+为保证测试数量的完整进行，一般不会在发生错误时立刻退出压力测试。monkey 测试命令如下
+adb shell monkey -p 包名 -s 500 --ignore-crashes --ignore-timeouts --monitor-native-crashes -v -v -v 10000
+
+三、Monkey命令参数：
+1>  -p
+用于约束限制，用此参数指定一个或者多个包，指定包之后，monkey将只允许启动指定app，如果不指定包，monkey将启动系统中所有的app 。
+例：指定一个包     monkey -p com.htc.weather -v 1000
+        指定多个包     monkey -p com.htc.weather -p com.htc.pdfreader -p com.htc.photo.widgets -v 1000
+        不指定包          monkey -v 1000
+2>  -v
+用于指定反馈的信息级别（日志的详细程度），分为三个级别，级别越高，日志越详细。
+level 0：
+例：monkey -p com.htc.weather -v 1000
+
+level 1:
+例：monkey -p com.htc.weather -v -v 1000
+level 2:
+例：monkey -p com.htc.weather -v -v -v 1000
+3> -s
+指定伪随机数生成器的seed值，如果seed相同，则两次monkey 测试产生的事件序列也相同。
+例： monkey -p com.htc.weather -s 35 -v 1000
+4> --throttle(毫秒)
+制定每个事件结束后的间隔时间，降低系统压力。（如果不指定系统会尽快的发送事件序列）
+例：monkey --throttle 300
+5> 定制事件
+--pct-touch：指定触摸事件的百分比，例：--pct-touch 5%    , 其他相关的:
+--pct-motion <percent> （滑动事件）
+--pct-trackball <percent> （轨迹球事件）
+--pct-nav <percent> （导航事件 up/down/left/right）
+--pct-majornav <percent> (主要导航事件 back key 、 menu key)
+--pct-syskeys <percent> (系统按键事件 Home 、Back 、startCall 、 endCall 、 volumeControl)
+--pct-appswitch <percent> （activity之间的切换）
+--pct-anyevent <percent>（任意事件）
+6>调试选项
+--dbg-no-events：初始化启动的activity，但是不产生任何事件。
+--hprof：指定该项后在事件序列发送前后会立即生成分析报告  —— 一般建议指定该项。
+--ignore-crashes：忽略崩溃
+--ignore-timeouts：忽略超时
+--ignore-security-exceptions：忽略安全异常
+--kill-process-after-error：发生错误后直接杀掉进程
+--monitor-native-crashes：跟踪本地方法的崩溃问题
+--wait-dbg：知道连接了调试器才执行monkey测试。
+
+
+分析日志：
+1、 ANR问题：在日志中搜索“ANR”
+2、 崩溃问题：在日志中搜索“Exception”
+3、搜索"crash" 、"error"
