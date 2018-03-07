@@ -1,0 +1,16 @@
+apktool的下载和安装
+
+apktool 下载地址:
+Apktool [![Join the chat athttps://gitter.im/iBotPeaches/Apktool]
+[https://ibotpeaches.github.io/Apktool/]
+
+apktool 安装教程:
+这个是上面网站上给出的安装使用文档:
+Apktool - How to Install
+[https://ibotpeaches.github.io/Apktool/install/]
+
+apktool d -f c:\test.apk -o c:\test 命令,把 test.apk 反编译,反编译后的文件放入 c 盘下的 test 文件中
+
+apktool d -f E:\app\shop\app-release.apk -o E:\app\shop\temp
+
+apktool d -f E:\app\testjin\jngj_v1.0_20180227_1.apk -o E:\app\testjin\temp

@@ -38,7 +38,7 @@ class Adb:
 
     def get_meminfo(self,package_name,cpulog_url):
         """
-        获取cpu信息
+        获取内存信息
         :param package_name：包名
         :param cpulog_url：日志存放路径
         :return:None
@@ -47,8 +47,15 @@ class Adb:
         cpuinfos = a.readlines()
         print cpuinfos
 
+    def get_pid(self,package_name):
+        a = os.popen('adb shell ps | findstr ' + package_name)
+        cpuinfos = a.readlines()
+        print cpuinfos
+
 if __name__ == '__main__':
+    package_name = "com.lq.kldshopping"
     adb = Adb()
     adb.get_devices()
-    adb.get_cpuinfo('com.lq.kldshopping','')
-    adb.get_meminfo('com.lq.kldshopping', '')
+    adb.get_cpuinfo(package_name,'')
+    adb.get_meminfo(package_name, '')
+    adb.get_pid(package_name)
