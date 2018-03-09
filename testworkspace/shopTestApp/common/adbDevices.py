@@ -21,8 +21,7 @@ class Adb:
             print u"请确认设备是否连接"
             return None
         else:
-            print u'当前连接的设备名：',devices_name
-            print u'设备状态：', devices_status
+            # print u'当前连接的设备名：',devices_name
             return devices_name
 
     def get_cpuinfo(self,package_name,cpulog_url):
