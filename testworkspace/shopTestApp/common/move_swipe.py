@@ -6,7 +6,7 @@ class MySwipe():
 
     def getSize(self):
         """
-        获得机器屏幕大小x,y
+        获得机器屏幕大小x,y[分辨率]
         :return：设备屏幕
         """
         x = self.driver.get_window_size()['width']

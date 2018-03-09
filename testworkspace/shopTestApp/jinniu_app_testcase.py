@@ -36,12 +36,13 @@ class JinniuAppTestCase:
         self.skip_guide_page()
         time.sleep(1)
         print self.driver.current_activity
+        self.driver.wait_activity()
         if ".moudles.home.MainActivity" == self.driver.current_activity:
             # 进入首页
             # self.driver.find_element_by_xpath("//android.widget.TextView[@text='房贷计算器']").click()
             # 模拟手指点击操作
             self.driver.tap([(42, 454), (188, 515)], 100)
-            time.sleep(10)
+            time.sleep(2)
 
             # # 输入手机号/密码
             # self.driver.find_element_by_id("com.lianqian.jinniuguanjia:id/et_phone_number").send_keys("13572489850")
